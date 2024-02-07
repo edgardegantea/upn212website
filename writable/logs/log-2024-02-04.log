@@ -1,0 +1,10 @@
+CRITICAL - 2024-02-04 23:44:01 --> syntax error, unexpected token "=>", expecting "," or ";"
+in APPPATH\Views\ofertaeducativa\oe_lae.php on line 17.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ofertaeducativa/oe_lae', [], true)
+ 3 APPPATH\Controllers\OfertaEducativaController.php(19): view('ofertaeducativa/oe_lae')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\OfertaEducativaController->oe_lae()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OfertaEducativaController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212website\\public\\index.php')

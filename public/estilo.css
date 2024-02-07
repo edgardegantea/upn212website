@@ -1,0 +1,7 @@
+footer > ul > li {
+    @apply py-1 px-4;
+}
+
+footer > ul > li > a:hover {
+    @apply underline;
+}
